@@ -11,6 +11,10 @@ public:
 	// method
 	Student(); // default constructor
 	Student(const Student&);
+	Student(int , char* , char* , char* , int);
+	~Student();
+
+	Student& operator =(const Student&);
 };
 
 #endif
