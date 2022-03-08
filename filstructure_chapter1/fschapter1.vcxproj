@@ -101,6 +101,7 @@
   <ItemGroup>
     <ClCompile Include="person.cpp" />
     <ClCompile Include="String.cpp" />
+    <ClCompile Include="student.cpp" />
     <ClCompile Include="testCourseRegistration.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
