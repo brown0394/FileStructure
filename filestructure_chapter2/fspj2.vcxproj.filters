@@ -33,6 +33,9 @@
     <ClCompile Include="writestr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="readper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="person.h">
