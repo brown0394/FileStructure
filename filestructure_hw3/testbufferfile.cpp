@@ -1,6 +1,6 @@
 //학번: 201824641
 //이름: 최성찬
-//github id: 
+//github id: brown0394
 #include <vector>
 #include "CourseRegistration.h"
 #include "student.h"
