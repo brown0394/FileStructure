@@ -15,7 +15,7 @@ void writeRecord(TextIndexedFile<Student> &IndFile) {
 	}
 	int recaddr;
 	//write records
-	Student* R[10], foundRecord;
+	Student* R[10];
 	for (int i = 0; i < 10; i++)
 	{
 		R[i] = new Student;
@@ -74,7 +74,7 @@ int main (void)
 {// first argument is the file name for the data file
 	int result;
 
-	TextIndex RecIndex (10);
+	//TextIndex RecIndex (10);
 	DelimFieldBuffer Buffer; // create a buffer
 	TextIndexedFile<Student> IndFile (Buffer, 12, 10);
 	//TextIndexedFile<RecType>::TextIndexedFile(IOBuffer & buffer, int keySize, int maxKeys)
